@@ -4,6 +4,12 @@ input.onButtonPressed(Button.A, function () {
         basic.showNumber(counter)
     }
 })
+input.onButtonPressed(Button.B, function () {
+    for (let index = 0; index < 100; index++) {
+        counter = counter + 1
+    }
+    basic.showNumber(counter)
+})
 let counter = 0
 counter = 0
 basic.showNumber(counter)
